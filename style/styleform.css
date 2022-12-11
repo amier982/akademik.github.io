@@ -1,0 +1,83 @@
+/* Body */
+body {
+    padding: 30px 0 20px 0;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgb(129, 130, 142), rgb(28, 39, 101));
+}
+
+h1 {
+    font-family: 'viga', 'Lucida Sans';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: -10px 0 10px 0;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+
+h4 {
+    font-family: 'viga', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: -10px 0 10px 0;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+td, button {
+    font-family: 'ubuntu', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin: 0 0 5px 10px;
+}
+
+.tlp {
+    margin-bottom: 20px;
+}
+img {
+    margin: 0px 0 20px 0;
+    width: 100px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        margin: 0 auto;
+        background-image: linear-gradient(90deg, rgb(129, 130, 142), rgb(28, 39, 101));
+    }
+    
+    .container {
+        border: 1px solid rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.3);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 90px auto;
+        width: 670px;
+    }
+
+    td, button {
+        text-transform: uppercase;
+        font-family: 'ubuntu', sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    input, textarea {
+        margin: 5px 0 5px 70px;
+    }
+
+    table {
+        margin: 10px 20px 10px 20px;
+    }
+
+    .btn {
+        margin: 20px 0 0 10px;
+    }
+
+    img {
+        margin: -100px 0 20px 0;
+        width: 150px;
+    }
+}
